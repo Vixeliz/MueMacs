@@ -2,5 +2,9 @@
 
 !.gitignore
 !init.el
-!autoload/*
+!autoload/custom.el
+!autoload/init.apps.el
+!autoload/init.dev.el
+!autoload/init.visual.el
+!autoload/init.writing.el
 !LICENSE
