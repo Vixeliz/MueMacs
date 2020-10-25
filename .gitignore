@@ -1,10 +1,11 @@
 *
 
 !.gitignore
+!autoload/
 !init.el
-!autoload/custom.el
-!autoload/init.apps.el
-!autoload/init.dev.el
-!autoload/init.visual.el
-!autoload/init.writing.el
+!custom.el
+!init.apps.el
+!init.dev.el
+!init.visual.el
+!init.writing.el
 !LICENSE
