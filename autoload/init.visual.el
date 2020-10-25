@@ -17,6 +17,11 @@
 
 (doom-themes-org-config))
 
+;; Fonts
+(set-face-attribute 'default nil :family "SourceCodePro-Regular" :height 105)
+(set-face-attribute 'fixed-pitch nil :family "SourceCodePro-Regular")
+(set-face-attribute 'variable-pitch nil :family "SourceSerifPro-Regular")
+
 ;; No scroll bar
 (scroll-bar-mode -1)
 
