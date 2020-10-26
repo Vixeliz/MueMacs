@@ -11,3 +11,6 @@
          (org-mode . outline-show-all)))
 
 (use-package org-bullets :defer 2 :hook (org-mode . org-bullets-mode))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages '((C . t)))

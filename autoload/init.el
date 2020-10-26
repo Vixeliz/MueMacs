@@ -55,3 +55,10 @@
 (setq confirm-kill-processes nil
       create-lockfiles nil
       make-backup-files nil)
+
+(use-package no-littering)
+(setq auto-save-file-name-transforms
+      `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
+;; Web Browser
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "wyeb")

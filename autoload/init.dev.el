@@ -28,9 +28,6 @@
 
 (straight-use-package 'disaster :defer 2)
 
-(org-babel-do-load-languages
- 'org-bable-load-languaes '((C . t))) ;; Load c for eval in org files
-
 ;; Project directory
 (use-package treemacs :defer 2) ;; Project sidebar
 
